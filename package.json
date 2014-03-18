@@ -4,16 +4,13 @@
   "description": "The Pi API",
   "main": "pi.js",
   "dependencies": {
-    "concat-stream": "~1.4.1",
-    "express": "~4.0.0-rc2"
+    "concat-stream": "1.4.x",
+    "express": "3.x",
+    "optimist": "~0.6.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "concat-stream": "1.4.x",
-    "express": "3.x"
   },
   "author": "Alexander Selzer <aselzer3@gmail.com>",
   "license": "MIT"
